@@ -1,0 +1,18 @@
+.information {
+    text-align: center;
+  }
+  
+  .information p {
+    font: var(--headline5);
+  }
+  .information p:first-child {
+    font: var(--body1);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .information {
+      padding-block-start: 200px;
+      padding-block-end: 120px;
+      padding-inline: 0;
+    }
+  }
